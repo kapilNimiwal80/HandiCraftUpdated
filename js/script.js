@@ -209,5 +209,6 @@ $(document).ready(function () {
     var Innheight = Wheight - (Fheight + Hheight);
 
     $('.content-area').css('min-height', Innheight);
+    alert('helllo');
 });
 
