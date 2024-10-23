@@ -2889,4 +2889,5 @@ section.new-arrivalsPage {
     bottom: 190px;
     right: 12px;
     left: auto;
+    position: relative;
 }
