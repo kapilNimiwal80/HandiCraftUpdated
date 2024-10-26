@@ -29,7 +29,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <!-- Bootstrap  v5.3.0  CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--  Font-Awesome-5 CSS -->
@@ -454,7 +454,7 @@
 
     <!-- New Arrivals -->
     <section class="new-arrivalsPage">
-        <div class="custom-width-container container">
+        <div class="custom-width-container ">
             <div class="section-heading">
                 <h2>New Arrivals</h2>
             </div>
@@ -1124,8 +1124,8 @@
                 spaceBetween: 30,
                 loop: false,
                 navigation: {
-                    nextEl: ".auction-controls .swiper-button-next",
-                    prevEl: ".auction-controls .swiper-button-prev"
+                    nextEl: ".trendingSlide .swiper-button-next",
+                    prevEl: ".trendingSlide .swiper-button-prev"
                 },
                 breakpoints: {
                     300: {
@@ -1162,6 +1162,7 @@
                 slidesPerView: 6,
                 spaceBetween: 80,
                 loop: false,
+                autoplay:true,
                 breakpoints: {
                     300: {
                         slidesPerView: 2,
